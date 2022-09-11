@@ -9,12 +9,9 @@ git clone https://github.com/aws-samples/aws-sm-mmo
 ```
 ./build.sh mytriton
 ```
-5.	
+4.  Launch a notebook instance from Sagemkaer console
+5.  Upload mytriton.ipynb to notebook instance, then execute step by step.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
 
 ## Security
 
