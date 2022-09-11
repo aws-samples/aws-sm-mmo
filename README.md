@@ -9,7 +9,7 @@ git clone https://github.com/aws-samples/aws-sm-mmo
 ```
 ./build.sh mytriton
 ```
-4.  Launch a notebook instance from Sagemkaer console
+4.  Launch a notebook instance with ml.c5.xlarge specification from Sagemkaer console
 5.  Upload mytriton.ipynb to notebook instance, then execute step by step.
 
 
