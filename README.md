@@ -5,7 +5,12 @@
 ```
 git clone https://github.com/aws-samples/aws-sm-mmo
 ```
-3.	Build docker image
+3. Extract model file
+```
+cd model/bert_base/1/
+unzip model.bin.zip
+```
+4.	Build docker image
 ```
 ./build.sh mytriton
 ```
