@@ -1,6 +1,6 @@
 ## Serve multiple models with One Sagamaker Endpoint 
 
-1.	Launches an G4dn.2xlarge instance with Deep Learning AMI (Ubuntu 18.04)
+1.	Launches an g4dn.2xlarge instance with Deep Learning AMI (Ubuntu 20.04)
 2.	Clone this repo
 ```
 git clone https://github.com/aws-samples/aws-sm-mmo
