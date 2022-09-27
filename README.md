@@ -1,6 +1,6 @@
 ## Serve multiple models with One Sagamaker Endpoint 
 
-1.	Launches an g4dn.2xlarge instance with Deep Learning AMI (Ubuntu 20.04)
+1.	Launch a g4dn.2xlarge instance with Deep Learning AMI (Ubuntu 20.04), adjust EBS storage size to at least 50G.
 2.	Clone this repo
 ```
 git clone https://github.com/aws-samples/aws-sm-mmo
@@ -14,7 +14,7 @@ unzip model.bin.zip
 ```
 ./build.sh mytriton
 ```
-4.  Launch a notebook instance with ml.c5.xlarge specification from Sagemkaer console
+4.  Launch a notebook instance with ml.c5.xlarge specification from SageMaker console
 5.  Upload mytriton.ipynb to notebook instance, then execute step by step.
 
 
