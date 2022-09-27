@@ -10,12 +10,22 @@ git clone https://github.com/aws-samples/aws-sm-mmo
 cd model/bert_base/1/
 unzip model.bin.zip
 ```
-4.	Build docker image
+4. Install and config aws-cli, and git.
+```
+sudo apt install awscli
+sudo apt install git-all
+```
+config aws client
+```
+aws configure
+# input AWS Access Key ID, AWS Secret Access Key, Default region name and Default output format
+```
+5. Build docker image
 ```
 ./build.sh mytriton
 ```
-4.  Launch a notebook instance with ml.c5.xlarge specification from SageMaker console
-5.  Upload mytriton.ipynb to notebook instance, then execute step by step.
+6. Launch a notebook instance with ml.c5.xlarge specification from SageMaker console
+7. Upload mytriton.ipynb to notebook instance, then execute step by step.
 
 
 ## Security
